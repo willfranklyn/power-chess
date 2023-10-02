@@ -56,31 +56,3 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
-
-/* --- Tooltip --- */
-
-/* .tooltip1, .tooltip2, .tooltip3 {
-    position: relative;
-    display: inline-block;
-}
-  
-.tooltip1 .tooltiptext1, .tooltip2 .tooltiptext2, .tooltip3 .tooltiptext3 {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    opacity: 0.7;
-    
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
-}
-  
-.tooltip1:hover .tooltiptext1, .tooltip2:hover .tooltiptext2, .tooltip3:hover .tooltiptext3 {
-    visibility: visible;
-} */

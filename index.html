@@ -9,10 +9,13 @@
 <body style="width: 200px">
     <h1>Power Chess</h1>
     <div style="display: flex; flex-direction: column; align-items: center;">
+        <h3>Enter your username:</h3>
+        <input type="text" id="username-input">
+        <button type="button" onclick="buttonSubmit()">Enter</button>
+        <p id="username-error" style="color: red; visibility: hidden"></p>
         <div style="display: flex; flex-direction: column; align-items: center;">
             <div class="tooltip1">
                 <h3>Always Display Division</h3>
-                <!-- <span class="tooltiptext1">Display Competitive Division</span> -->
             </div>
             <label class="switch">
                 <input type="checkbox">
@@ -23,7 +26,6 @@
         <div style="display: flex; flex-direction: column; align-items: center;">
             <div class="tooltip2">
                 <h3>Zen Mode</h3>
-                <!-- <span class="tooltiptext2">Focus Up</span> -->
             </div>
             <label class="switch">
                 <input type="checkbox">
@@ -33,7 +35,6 @@
         <div style="display: flex; flex-direction: column; align-items: center;">
             <div class="tooltip3">
                 <h3>Tetris Mode</h3>
-                <!-- <span class="tooltiptext3">Add Intensity</span> -->
             </div>
             <label class="switch">
                 <input type="checkbox">
