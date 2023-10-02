@@ -1,0 +1,11 @@
+{
+    "name": "Power Chess",
+    "version": "1.0.0",
+    "description": "Chess.com Chrome Extension to enhance your chess experience.",
+    "manifest_version": 3,
+    "author": "Will Franklyn",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Power Chess"
+    }
+}
