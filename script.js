@@ -10,8 +10,6 @@ async function fetchData(username) {
         error.style.visibility = "visible";
         error.innerHTML = "Error Retrieving Username";
     } else {
-        console.log("record: ", record);
-        console.log("League: ", record.league);
         document.getElementById("league").innerHTML = record.league;
     }
     
@@ -20,7 +18,6 @@ async function fetchData(username) {
 
 function buttonSubmit() {
     const username = document.getElementById("username-input").value;
-    console.log("username: ", username);
     if (username) {
         fetchData(username);
     } else {
